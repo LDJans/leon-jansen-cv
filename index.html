@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leon Jansen – Business Consultant</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand">LJ</a>
+      <div class="nav-links">
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#map">Map</a>
+        <a href="#skills">Skills</a>
+        <a href="#commitment">Commitment</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-inner">
+      <p class="eyebrow">Business Consultant · Automotive, Manufacturing &amp; Defense</p>
+      <h1>Leon Jansen</h1>
+      <p class="lead">
+        Consulting with a focus on digital strategy and AI adoption, with hands-on experience
+        at BearingPoint, OMMAX, Mercedes-Benz Consulting and Porsche.
+      </p>
+      <div class="contact" id="contact"></div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="experience" class="section">
+      <h2>Professional Experience</h2>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <div class="grid" id="education-list"></div>
+    </section>
+
+    <section id="map" class="section">
+      <h2>Where I've worked, studied &amp; engaged</h2>
+      <div class="map-filters" id="map-filters"></div>
+      <div class="map-wrap">
+        <div id="leaflet-map"></div>
+        <aside class="map-list" id="map-list"></aside>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills &amp; Certificates</h2>
+      <div class="skills-grid" id="skills-list"></div>
+    </section>
+
+    <section id="commitment" class="section">
+      <h2>Commitment</h2>
+      <div class="grid" id="commitment-list"></div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Leon Jansen</footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
