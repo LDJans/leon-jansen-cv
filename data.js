@@ -94,6 +94,7 @@ const CV = {
     {
       school: "IQS School of Management",
       domain: "iqs.edu",
+      logo: "assets/iqs.jpg",
       color: "#8B1E3F",
       degree: "Double Degree, Digital Management",
       gpa: "1.3",
@@ -148,6 +149,7 @@ const CV = {
     {
       title: "IQS School of Management – Student Spokesperson",
       domain: "iqs.edu",
+      logo: "assets/iqs.jpg",
       period: "09/2021 – 06/2022",
       text: "Sparring partner for both students and professors in case of dissatisfaction.",
     },
